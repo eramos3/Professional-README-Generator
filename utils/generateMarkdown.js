@@ -1,9 +1,11 @@
-
-  # readme generator
+// function to generate markdown for README
+function generateMarkdown(data) {
+  return `
+  # ${data.title}
 
   ## Description
 
-  generates readme 
+  ${data.description} 
 
 
   ## Table of Contents
@@ -18,11 +20,11 @@
 
     ## Installation
 
-    git clone from repository 
+    ${data.install} 
 
     ## Usage 
 
-    using node answer questions 
+    ${data.usage} 
    
 
     ## Credits
@@ -63,3 +65,7 @@
 
     Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
+`;
+}
+
+module.exports = generateMarkdown;
