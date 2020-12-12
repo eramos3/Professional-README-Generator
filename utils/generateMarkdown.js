@@ -14,45 +14,45 @@ function generateMarkdown(data) {
 
   ## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Questions](#questions)
-    * [License](#license)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  * [License](#license)
 
 
 
-    ## Installation
+  ## Installation
 
-    ${data.install} 
-
-
-    ## Usage 
-
-    ${data.usage}
+  ${data.install} 
 
 
-    ## Contributing
+  ## Usage 
+
+  ${data.usage}
 
 
-    ${data.contribute}
+  ## Contributing
+
+
+  ${data.contribute}
  
 
-    ## Tests
+  ## Tests
 
-    Go the extra mile and write tests for your application. Then provide examples on how to run them.
+  Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
     
-    ## Questions
+  ## Questions
 
-    You can find more of my projects by clicking on this link --> [${data.name}](${data.profile})
+  You can find more of my projects by clicking on this link --> [${data.name}](${data.profile})
 
-    If you have any questions you  can reach out to me via emial at ${data.email}
+  If you have any questions you  can reach out to me via emial at ${data.email}
 
 
-    ## License
+  ## License
 
-    Licensed under the ${data.license} license.
+  Licensed under the ${data.license} license.
 `;
 }
 

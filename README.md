@@ -7,47 +7,47 @@
 
   ## Description
 
-  This app builds a readme file using NODE JS 
+    This app builds a readme file using NODE JS  
 
 
   ## Table of Contents
 
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Contributing](#contributing)
-    * [Questions](#questions)
-    * [License](#license)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributing](#contributing)
+  * [Questions](#questions)
+  * [License](#license)
 
 
 
-    ## Installation
+  ## Installation
 
-    To install the project, you'll have to use git clone and clone the repository 
-
-
-    ## Usage 
-
-    Once cloned into your machine, run "node index.js" in your terminal 
+  To install the project, you'll have to use git clone and clone the repository  
 
 
-    ## Contributing
+  ## Usage 
+
+  Once cloned into your machine, run "node index.js" in your terminal 
 
 
-    If you would like to contribute to this project, please make a pull request in github
+  ## Contributing
+
+
+  If you would like to contribute to this project, please make a pull request in github
  
 
-    ## Tests
+  ## Tests
 
-    Go the extra mile and write tests for your application. Then provide examples on how to run them.
+  Go the extra mile and write tests for your application. Then provide examples on how to run them.
 
     
-    ## Questions
+  ## Questions
 
-    You can find more of my projects by clicking on this link --> [eramos3](https://github.com/eramos3)
+  You can find more of my projects by clicking on this link --> [eramos3](https://github.com/eramos3)
 
-    If you have any questions you  can reach out to me via emial at eramos@fakemail.com
+  If you have any questions you  can reach out to me via emial at eramos@fakemail.com
 
 
-    ## License
+  ## License
 
-    Licensed under the MIT license.
+  Licensed under the MIT license.
