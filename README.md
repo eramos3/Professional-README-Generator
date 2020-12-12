@@ -1,7 +1,7 @@
 
   # D
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br>
+  ![badge](https://img.shields.io/badge/license-GNU_AGPLv3-brightgreen)<br>
 
   ## Description
 
@@ -42,15 +42,15 @@
     
   ## Questions
 
-  You can find more of my projects by clicking on this link --> [d](d)
+  You can find more of my projects by clicking on this link --> [dd](d)
 
   If you have any questions you  can reach out to me via email at d
 
 
   ## License
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)<br>
-  Licensed under the MIT license.
+  ![badge](https://img.shields.io/badge/license-GNU_AGPLv3-brightgreen.svg)<br>
+  Licensed under the GNU_AGPLv3 license.
   
 * [License](#license)
 

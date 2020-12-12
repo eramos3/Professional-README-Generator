@@ -114,10 +114,10 @@ const questions = [
         }
     },
     {
-        type: 'checkbox',
+        type: 'list',
         name: 'license',
         message: 'Would you like to add a license?',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['GNU_AGPLv3', 'GNU_GPLv3', 'GNU_LGPLv3', 'Mozilla_Public_License 2.0', 'Apache_License 2.0', 'MIT', 'Boost_Software_License_1.0', 'The_Unlicense'],
     },
 ];
 
