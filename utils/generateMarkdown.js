@@ -3,9 +3,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title.toUpperCase()}
 
-  ## Badges
-  insert badges here
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
 
   ## Description
 
@@ -52,6 +50,7 @@ function generateMarkdown(data) {
 
   ## License
 
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
   Licensed under the ${data.license} license.
 `;
 }

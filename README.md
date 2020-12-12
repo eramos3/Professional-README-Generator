@@ -1,13 +1,11 @@
 
   # PROFESSIONAL README GENERATOR
 
-  ## Badges
-  insert badges here
-  ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 
   ## Description
 
-    This app builds a readme file using NODE JS  
+  This app builds a readme file using NODE JS 
 
 
   ## Table of Contents
@@ -50,4 +48,5 @@
 
   ## License
 
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
   Licensed under the MIT license.
