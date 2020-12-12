@@ -1,11 +1,11 @@
 
   # PROFESSIONAL README GENERATOR
 
-  ![badge](https://img.shields.io/badge/license-GNU_GPLv3-brightgreen)<br>
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br>
 
   ## Description
 
-  Generates Readme markdown file using node js 
+  applications that uses node js to generate a readme.md file 
 
 
   ## Table of Contents
@@ -21,18 +21,18 @@
 
   ## Installation
 
-  To install, git clone from repo into your machine 
+  git clone into your computer and run npm init 
 
 
   ## Usage 
 
-  Once installed, run "node index.js" in your terminal
+  once installed open your terminal and run "node index.js" 
 
 
   ## Contributing
 
 
-  Request a pull from github
+  request pull request from github.com
  
 
   ## Tests
@@ -43,13 +43,10 @@
 
   You can find more of my projects by clicking on this link --> [eramos3](https://github.com/eramos3)
 
-  If you have any questions you  can reach out to me via email at eramos@fakeemail.com
+  If you have any questions you  can reach out to me via email at sample@gmail.com
 
 
   ## License
 
-  ![badge](https://img.shields.io/badge/license-GNU_GPLv3-brightgreen.svg)<br>
-  Licensed under the GNU_GPLv3 license.
-  
-* [License](#license)
-
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)<br>
+  Licensed under the MIT license.

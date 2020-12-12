@@ -52,7 +52,6 @@ function generateMarkdown(data) {
 
   ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen.svg)<br>
   Licensed under the ${data.license} license.
-  \n* [License](#license)\n
 `;
 }
 

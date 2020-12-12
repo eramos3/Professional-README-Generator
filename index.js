@@ -103,12 +103,6 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'test',
-        message: 'How do you use testing for this application',
-        default: "npm test"
-    },
-    {
-        type: 'input',
         name: 'contribute',
         message: 'Please explain the steps for others to contribute',
         when: ({ confirmContribute }) => {
@@ -118,6 +112,12 @@ const questions = [
                 return false;
             }
         }
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'How do you use testing for this application',
+        default: "npm test"
     },
     {
         type: 'list',
