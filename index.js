@@ -6,10 +6,49 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: 'input',
-        name: 'title',
-        message: 'What is the name of your project?',
+        name: 'name',
+        message: 'What is your github username? (Required)',
         validate: nameInput => {
             if (nameInput) {
+                return true;
+            } else {
+                console.log('Please enter your username!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'profile',
+        message: 'What is your github profile url? (Required)',
+        validate: profileInput => {
+            if (profileInput) {
+                return true;
+            } else {
+                console.log('Please enter your url!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter the your email for others to contact you (Required)',
+        validate: emailInput => {
+            if (emailInput) {
+                return true;
+            } else {
+                console.log('Please enter your email address!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'title',
+        message: 'What is the name of your project?',
+        validate: titleInput => {
+            if (titleInput) {
                 return true;
             } else {
                 console.log('Please enter project title!');
@@ -57,19 +96,6 @@ const questions = [
         }
     },
     {
-        type: 'input',
-        name: 'link',
-        message: 'Enter the GitHub link to your project. (Required)',
-        validate: linkInput => {
-            if (linkInput) {
-                return true;
-            } else {
-                console.log('Please enter link url!');
-                return false;
-            }
-        }
-    },
-    {
         type: 'confirm',
         name: 'confirmContribute',
         message: 'Would you like others to contribute to your project?',
@@ -91,7 +117,7 @@ const questions = [
         type: 'checkbox',
         name: 'license',
         message: 'Would you like to add a license?',
-        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT License', 'Boost Software License 1.0', 'The Unlicense'],
+        choices: ['GNU AGPLv3', 'GNU GPLv3', 'GNU LGPLv3', 'Mozilla Public License 2.0', 'Apache License 2.0', 'MIT', 'Boost Software License 1.0', 'The Unlicense'],
     },
 ];
 
