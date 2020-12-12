@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `
   # ${data.title.toUpperCase()}
 
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br>
 
   ## Description
 
@@ -15,6 +15,7 @@ function generateMarkdown(data) {
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
+  * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
 
@@ -50,7 +51,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  >![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  >![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)<br>
   Licensed under the ${data.license} license.
 `;
 }

@@ -1,11 +1,11 @@
 
   # PROFESSIONAL README GENERATOR
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![badge](https://img.shields.io/badge/license-Mozilla Public License 2.0-brightgreen)<br>
 
   ## Description
 
-  This app builds a readme file using NODE JS 
+  This app builds a readme file using NODE JS  
 
 
   ## Table of Contents
@@ -13,6 +13,7 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [Contributing](#contributing)
+  * [Tests](#tests)
   * [Questions](#questions)
   * [License](#license)
 
@@ -20,12 +21,12 @@
 
   ## Installation
 
-  To install the project, you'll have to use git clone and clone the repository  
+  To install the project, you'll have to use git clone and clone the repository 
 
 
   ## Usage 
 
-  Once cloned into your machine, run "node index.js" in your terminal 
+  Once cloned into your machine, run "node index.js" in your terminal
 
 
   ## Contributing
@@ -43,10 +44,10 @@
 
   You can find more of my projects by clicking on this link --> [eramos3](https://github.com/eramos3)
 
-  If you have any questions you  can reach out to me via emial at eramos@fakemail.com
+  If you have any questions you  can reach out to me via email at eramos@fakemail.com
 
 
   ## License
 
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
-  Licensed under the MIT license.
+  >![badge](https://img.shields.io/badge/license-Mozilla Public License 2.0-brightgreen)<br>
+  Licensed under the Mozilla Public License 2.0 license.
