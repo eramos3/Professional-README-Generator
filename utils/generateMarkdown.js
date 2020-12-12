@@ -39,8 +39,7 @@ function generateMarkdown(data) {
 
   ## Tests
 
-  Go the extra mile and write tests for your application. Then provide examples on how to run them.
-
+  ${data.test}
     
   ## Questions
 

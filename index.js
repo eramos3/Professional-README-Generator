@@ -103,6 +103,12 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'test',
+        message: 'How do you use testing for this application',
+        default: "npm test"
+    },
+    {
+        type: 'input',
         name: 'contribute',
         message: 'Please explain the steps for others to contribute',
         when: ({ confirmContribute }) => {
@@ -117,13 +123,13 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Would you like to add a license?',
-        choices: ['GNU_AGPLv3', 'GNU_GPLv3', 'GNU_LGPLv3', 'Mozilla_Public_License 2.0', 'Apache_License 2.0', 'MIT', 'Boost_Software_License_1.0', 'The_Unlicense'],
+        choices: ['GNU_AGPLv3', 'GNU_GPLv3', 'GNU_LGPLv3', 'Mozilla_Public_License_2.0', 'Apache_License_2.0', 'MIT', 'Boost_Software_License_1.0', 'The_Unlicense'],
     },
 ];
 
 // function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile('./README.md', data, (err) => {
+    fs.writeFile('./dist/READMEGEN.md', data, (err) => {
         // if there's an error, throw the error
         if(err){
             throw err;
