@@ -45,12 +45,12 @@ function generateMarkdown(data) {
 
   You can find more of my projects by clicking on this link --> [${data.name}](${data.profile})
 
-  If you have any questions you  can reach out to me via emial at ${data.email}
+  If you have any questions you  can reach out to me via email at ${data.email}
 
 
   ## License
 
-  ![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
+  >![badge](https://img.shields.io/badge/license-${data.license}-brightgreen)
   Licensed under the ${data.license} license.
 `;
 }
