@@ -1,11 +1,11 @@
 
-  # GENERATOR
+  # D
 
-  ![badge](https://img.shields.io/badge/license-Mozilla Public License 2.0-brightgreen)<br>
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br>
 
   ## Description
 
-  generator 
+  d 
 
 
   ## Table of Contents
@@ -21,7 +21,7 @@
 
   ## Installation
 
-  no 
+  d 
 
 
   ## Usage 
@@ -42,15 +42,15 @@
     
   ## Questions
 
-  You can find more of my projects by clicking on this link --> [eramos](github.com)
+  You can find more of my projects by clicking on this link --> [d](d)
 
-  If you have any questions you  can reach out to me via email at eramo@umail.com
+  If you have any questions you  can reach out to me via email at d
 
 
   ## License
 
-  ![badge](https://img.shields.io/badge/license-Mozilla Public License 2.0-brightgreen)<br>
-  Licensed under the Mozilla Public License 2.0 license.
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen.svg)<br>
+  Licensed under the MIT license.
   
 * [License](#license)
 
